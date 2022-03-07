@@ -1,0 +1,26 @@
+.navbar {
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#chicken,
+#beef,
+#shushi {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgb(88, 97, 97);
+  position: relative;
+  border: 1px solid;
+  border-radius: 3px;
+  overflow: scroll;
+}
+
+#chicken,
+#beef,
+#shushi,
+a:hover {
+  text-decoration: none;
+  color: black;
+}
